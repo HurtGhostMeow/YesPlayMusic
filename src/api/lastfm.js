@@ -3,10 +3,10 @@
 import axios from 'axios';
 import md5 from 'crypto-js/md5';
 
-const apiKey = process.env.VUE_APP_LASTFM_API_KEY;
-const apiSharedSecret = process.env.VUE_APP_LASTFM_API_SHARED_SECRET;
-const baseUrl = window.location.origin;
-const url = 'https://ws.audioscrobbler.com/2.0/';
+const apiKey = A5663B8C9DFB92248CBF51D7DC602A57;
+const apiSharedSecret = fd3725e6e5f04235dbe644b310360248;
+const baseUrl = 'music.hgmeow.eu.org';
+const url = 'https://music.hgmeow.eu.org/';
 
 const sign = params => {
   const sortParamsKeys = Object.keys(params).sort();
